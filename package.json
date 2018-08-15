@@ -1,0 +1,22 @@
+{
+  "name": "babel-express",
+  "version": "1.0.0",
+  "description": "babel+express+blog api blog content",
+  "main": "app.js",
+  "repository": "https://github.com/akaloft/babel-express.git",
+  "author": "<mcloft@outlook.com>",
+  "license": "ISC",
+  "devDependencies": {
+    "babel-preset-env": "^1.7.0",
+    "express": "^4.16.3",
+    "nodemon": "^1.18.3"
+  },
+  "scripts": {
+    "start": "nodemon src/app.js --exec babel-node --presets babel-preset-env"
+  },
+  "dependencies": {
+    "babel-cli": "^6.26.0",
+    "body-parser": "^1.18.3",
+    "global": "^4.3.2"
+  }
+}
